@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-left">
+                <a class="header-left__item" href="/">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+                <a class="header-left__item" href="#">
+                    <img src="images/search_icon.png" alt="">
+                </a>
+            </div>
+            <div class="header-right">
+                <a class="header-right__item" href="#">
+                    <img src="images/burger_icon.svg" alt="">
+                </a>
+                <a class="header-right__item" href="#">
+                    <img src="images/user_icon.svg" alt="">
+                </a>
+                <a class="header-right__item cart-item" href="#">
+                    <img src="images/cart_icon.svg" alt="">
+                    <span class="products-number">5</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section__hero">
+        <div class="section__hero-image">
+            <img class="img-fluid" src="images/main_hero_banner.jpg" alt="">
+        </div>
+        <div class="section__hero-text">
+            <h1>THE BRAND</h1>
+            OF LUXERIOUS <span>FASHION</span>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="promo-links">
+            <a href="#" class="promo-links__item">
+                <img class="img-fluid" src="images/promo_link_1.jpg" alt="">
+                <span class="promo-links__item-text">
+                    <span class="promo-links__item-subtitle">
+                        30% OFF
+                    </span>
+                    <span class="promo-links__item-title">
+                        FOR WOMEN
+                    </span>
+                </span>
+            </a>
+
+            <a href="#" class="promo-links__item">
+                <img class="img-fluid" src="images/promo_link_2.jpg" alt="">
+                <span class="promo-links__item-text">
+                    <span class="promo-links__item-subtitle">
+                        HOT DEAL
+                    </span>
+                    <span class="promo-links__item-title">
+                        FOR MEN
+                    </span>
+                </span>
+            </a>
+
+            <a href="#" class="promo-links__item">
+                <img class="img-fluid" src="images/promo_link_3.jpg" alt="">
+                <span class="promo-links__item-text">
+                    <span class="promo-links__item-subtitle">
+                        NEW ARRIVALS
+                    </span>
+                    <span class="promo-links__item-title">
+                        FOR KIDS
+                    </span>
+                </span>
+            </a>
+
+            <a href="#" class="promo-links__item">
+                <picture>
+                    <source srcset="images/promo_link_4.jpg" media="(min-width: 600px)">
+                    <img class="img-fluid" src="images/promo_link_4_mob.jpg" alt="">
+                </picture>
+                <span class="promo-links__item-text">
+                    <span class="promo-links__item-subtitle">
+                        LUXIROUS & TRENDY
+                    </span>
+                    <span class="promo-links__item-title">
+                        ACCESORIES
+                    </span>
+                </span>
+            </a>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="copy">
+                © 2021 Brand All Rights Reserved.
+            </div>
+            <div class="social-links">
+                <a href="#">
+                    <svg width="9" height="15">
+                        <use xlink:href="images/social-sprite.svg#fb-icon"></use>
+                    </svg>
+                </a>
+
+                <a href="#">
+                    <svg width="16" height="15">
+                        <use xlink:href="images/social-sprite.svg#inst-icon"></use>
+                    </svg>
+                </a>
+
+                <a href="#">
+                    <svg width="13" height="15">
+                        <use xlink:href="images/social-sprite.svg#pint-icon"></use>
+                    </svg>
+                </a>
+
+                <a href="#">
+                    <svg width="17" height="14">
+                        <use xlink:href="images/social-sprite.svg#tw-icon"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
