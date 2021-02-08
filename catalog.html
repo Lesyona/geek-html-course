@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная</title>
+    <title>Catalog</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
@@ -41,124 +41,32 @@
         </div>
     </header>
 
-    <section class="section__hero">
-        <div class="section__hero-image">
-            <img class="img-fluid" src="images/main_hero_banner.jpg" alt="">
-        </div>
-        <div class="section__hero-text">
-            <h1>THE BRAND</h1>
-            OF LUXERIOUS <span>FASHION</span>
-        </div>
-
-        <div class="menu-overlay">
-            <div class="top-menu--wrap">
-                <div class="menu-close">
-                    <i class="fas fa-times"></i>
-                </div>
-                <div class="top-menu__title">MENU</div>
-
-                <ul class="top-menu">
-                    <li class="first-level-item">
-                        <a href="#">MAN</a>
-
-                        <ul class="sub-menu">
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Bags</a></li>
-                            <li><a href="#">Denim</a></li>
-                            <li><a href="#">T-Shirts</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="first-level-item">
-                        <a href="#">WOMAN</a>
-
-                        <ul class="sub-menu">
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Jackets & Coats</a></li>
-                            <li><a href="#">Polos</a></li>
-                            <li><a href="#">T-Shirts</a></li>
-                            <li><a href="#">Shirts</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="first-level-item">
-                        <a href="#">KIDS</a>
-
-                        <ul class="sub-menu">
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Jackets & Coats</a></li>
-                            <li><a href="#">Polos</a></li>
-                            <li><a href="#">T-Shirts</a></li>
-                            <li><a href="#">Shirts</a></li>
-                            <li><a href="#">Bags</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="container">
-        <div class="promo-links">
-            <a href="catalog.html" class="promo-links__item">
-                <img class="img-fluid" src="images/promo_link_1.jpg" alt="">
-                <span class="promo-links__item-text">
-                    <span class="promo-links__item-subtitle">
-                        30% OFF
-                    </span>
-                    <span class="promo-links__item-title">
-                        FOR WOMEN
-                    </span>
-                </span>
-            </a>
-
-            <a href="catalog.html" class="promo-links__item">
-                <img class="img-fluid" src="images/promo_link_2.jpg" alt="">
-                <span class="promo-links__item-text">
-                    <span class="promo-links__item-subtitle">
-                        HOT DEAL
-                    </span>
-                    <span class="promo-links__item-title">
-                        FOR MEN
-                    </span>
-                </span>
-            </a>
-
-            <a href="catalog.html" class="promo-links__item">
-                <img class="img-fluid" src="images/promo_link_3.jpg" alt="">
-                <span class="promo-links__item-text">
-                    <span class="promo-links__item-subtitle">
-                        NEW ARRIVALS
-                    </span>
-                    <span class="promo-links__item-title">
-                        FOR KIDS
-                    </span>
-                </span>
-            </a>
-
-            <a href="catalog.html" class="promo-links__item">
-                <picture>
-                    <source srcset="images/promo_link_4.jpg" media="(min-width: 600px)">
-                    <img class="img-fluid" src="images/promo_link_4_mob.jpg" alt="">
-                </picture>
-                <span class="promo-links__item-text">
-                    <span class="promo-links__item-subtitle">
-                        LUXIROUS & TRENDY
-                    </span>
-                    <span class="promo-links__item-title">
-                        ACCESORIES
-                    </span>
-                </span>
-            </a>
+    <section class="heading-section">
+        <div class="heading-container container">
+            <h1>NEW ARRIVALS</h1>
+            <ul class="breadcrumbs">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/">MEN</a></li>
+                <li>NEW ARRIVALS</li>
+            </ul>
         </div>
     </section>
 
     <section class="container featured-section">
-        <h2 class="featured-title">
-            Featured Items
-        </h2>
-        <div class="featured-subtitle">
-            Shop for items based on what we featured in this week
+        <div class="filters-section">
+            <div class="filter"><span>FILTER</span></div>
+
+            <div class="filter-selects">
+                <div class="select">
+                    TRENDING NOW <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="select">
+                    SIZE <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="select">
+                    PRICE <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
         </div>
 
         <div class="featured-items">
@@ -308,7 +216,20 @@
         </div>
 
         <div class="text--center">
-            <a href="#" class="browse-all">Browse All Product</a>
+            <div class="pagination">
+                <i class="fas fa-chevron-left"></i>
+                <ul>
+                    <li class="active-page">1</li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li>.....</li>
+                    <li><a href="#">20</a></li>
+                </ul>
+                <i class="fas fa-chevron-right"></i>
+            </div>
         </div>
     </section>
 
