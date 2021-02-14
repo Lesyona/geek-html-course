@@ -27,7 +27,7 @@
                 </a>
             </div>
             <div class="header-right">
-                <a class="header-right__item" href="#">
+                <a class="header-right__item burger-menu" href="#">
                     <img src="images/burger_icon.svg" alt="">
                 </a>
                 <a class="header-right__item" href="#">
@@ -40,6 +40,53 @@
             </div>
         </div>
     </header>
+
+    <div class="menu-overlay">
+        <div class="top-menu--wrap">
+            <div class="menu-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="top-menu__title">MENU</div>
+
+            <ul class="top-menu">
+                <li class="first-level-item">
+                    <a href="#">MAN</a>
+
+                    <ul class="sub-menu">
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Bags</a></li>
+                        <li><a href="#">Denim</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                    </ul>
+                </li>
+
+                <li class="first-level-item">
+                    <a href="#">WOMAN</a>
+
+                    <ul class="sub-menu">
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Jackets & Coats</a></li>
+                        <li><a href="#">Polos</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Shirts</a></li>
+                    </ul>
+                </li>
+
+                <li class="first-level-item">
+                    <a href="#">KIDS</a>
+
+                    <ul class="sub-menu">
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Jackets & Coats</a></li>
+                        <li><a href="#">Polos</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Bags</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <section class="heading-section">
         <div class="heading-container container">
@@ -54,23 +101,133 @@
 
     <section class="container featured-section">
         <div class="filters-section">
-            <div class="filter"><span>FILTER</span></div>
+            <div class="filter-wrap">
+                <div class="filter">
+                    <span>FILTER</span>
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="10">
+                        <use xlink:href="images/social-sprite.svg#filter-icon"></use>
+                    </svg>
+                </div>
+
+                <div class="filter-body">
+                    <details>
+                        <summary>CATEGORY</summary>
+
+                        <ul class="filter-list">
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Bags</a></li>
+                            <li><a href="#">Denim</a></li>
+                            <li><a href="#">Hoodies & Sweatshirts</a></li>
+                            <li><a href="#">Jackets & Coats</a></li>
+                            <li><a href="#">Polos</a></li>
+                            <li><a href="#">Shirts</a></li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Sweaters & Knits</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Tanks</a></li>
+                        </ul>
+                    </details>
+
+                    <details>
+                        <summary>BRAND</summary>
+
+                        <ul class="filter-list">
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Bags</a></li>
+                            <li><a href="#">Denim</a></li>
+                            <li><a href="#">Hoodies & Sweatshirts</a></li>
+                            <li><a href="#">Jackets & Coats</a></li>
+                            <li><a href="#">Polos</a></li>
+                            <li><a href="#">Shirts</a></li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Sweaters & Knits</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Tanks</a></li>
+                        </ul>
+                    </details>
+
+                    <details>
+                        <summary>DESIGNER</summary>
+
+                        <ul class="filter-list">
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Bags</a></li>
+                            <li><a href="#">Denim</a></li>
+                            <li><a href="#">Hoodies & Sweatshirts</a></li>
+                            <li><a href="#">Jackets & Coats</a></li>
+                            <li><a href="#">Polos</a></li>
+                            <li><a href="#">Shirts</a></li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Sweaters & Knits</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Tanks</a></li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
 
             <div class="filter-selects">
-                <div class="select">
-                    TRENDING NOW <i class="fas fa-chevron-down"></i>
+                <div class="select-wrap">
+                    <div class="select">
+                        TRENDING NOW <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="filter-body">
+                        <form action="/">
+                            <div class="input-form-group">
+                                <input type="checkbox" id="radio-1">
+                                <label for="radio-1">XS</label>
+                            </div>
+
+                            <div class="input-form-group">
+                                <input type="checkbox" id="radio-2">
+                                <label for="radio-2">S</label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="select">
-                    SIZE <i class="fas fa-chevron-down"></i>
+
+                <div class="select-wrap">
+                    <div class="select">
+                        SIZE <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="filter-body">
+                        <form action="/">
+                            <div class="input-form-group">
+                                <input type="checkbox" id="radio-3">
+                                <label for="radio-3">XS</label>
+                            </div>
+
+                            <div class="input-form-group">
+                                <input type="checkbox" id="radio-4">
+                                <label for="radio-4">S</label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="select">
-                    PRICE <i class="fas fa-chevron-down"></i>
+
+                <div class="select-wrap">
+                    <div class="select">
+                        PRICE <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="filter-body">
+                        <form action="/">
+                            <div class="input-form-group">
+                                <input type="checkbox" id="radio-5">
+                                <label for="radio-5">XS</label>
+                            </div>
+
+                            <div class="input-form-group">
+                                <input type="checkbox" id="radio-6">
+                                <label for="radio-6">S</label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="featured-items">
-            <a href="#" class="featured-item">
+            <a href="product.html" class="featured-item">
                 <span class="featured-item__image">
                     <img class="img-fluid" src="images/featured_items_1.jpg" alt="">
 
@@ -94,7 +251,7 @@
                 </span>
             </a>
 
-            <a href="#" class="featured-item">
+            <a href="product.html" class="featured-item">
                 <span class="featured-item__image">
                     <img class="img-fluid" src="images/featured_items_2.jpg" alt="">
 
@@ -118,7 +275,7 @@
                 </span>
             </a>
 
-            <a href="#" class="featured-item">
+            <a href="product.html" class="featured-item">
                 <span class="featured-item__image">
                     <img class="img-fluid" src="images/featured_items_3.jpg" alt="">
 
@@ -142,7 +299,7 @@
                 </span>
             </a>
 
-            <a href="#" class="featured-item">
+            <a href="product.html" class="featured-item">
                 <span class="featured-item__image">
                     <img class="img-fluid" src="images/featured_items_4.jpg" alt="">
 
@@ -166,7 +323,7 @@
                 </span>
             </a>
 
-            <a href="#" class="featured-item">
+            <a href="product.html" class="featured-item">
                 <span class="featured-item__image">
                     <img class="img-fluid" src="images/featured_items_5.jpg" alt="">
 
@@ -190,7 +347,7 @@
                 </span>
             </a>
 
-            <a href="#" class="featured-item">
+            <a href="product.html" class="featured-item">
                 <span class="featured-item__image">
                     <img class="img-fluid" src="images/featured_items_6.jpg" alt="">
 
@@ -295,31 +452,48 @@
             </div>
             <div class="social-links">
                 <a href="#">
-                    <svg width="9" height="15">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="15">
                         <use xlink:href="images/social-sprite.svg#fb-icon"></use>
                     </svg>
                 </a>
 
                 <a href="#">
-                    <svg width="16" height="15">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="15">
                         <use xlink:href="images/social-sprite.svg#inst-icon"></use>
                     </svg>
                 </a>
 
                 <a href="#">
-                    <svg width="13" height="15">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="15">
                         <use xlink:href="images/social-sprite.svg#pint-icon"></use>
                     </svg>
                 </a>
 
                 <a href="#">
-                    <svg width="17" height="14">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="14">
                         <use xlink:href="images/social-sprite.svg#tw-icon"></use>
                     </svg>
                 </a>
             </div>
         </div>
     </footer>
+
+    <script>
+        const filter = document.querySelector('.filter');
+        const select = document.querySelectorAll('.select');
+
+        filter.addEventListener("click", event => showFilterContents(event.target.closest('.filter')));
+
+        select.forEach(function (element) {
+            element.addEventListener("click", event => showFilterContents(event.target.closest('.select')));
+        });
+
+        function showFilterContents(filter) {
+            filter.classList.toggle("active");
+            let filterBody = filter.nextElementSibling;
+            filterBody.classList.toggle("expanded");
+        }
+    </script>
 </body>
 
 </html>

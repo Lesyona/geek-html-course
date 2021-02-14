@@ -1,0 +1,15 @@
+{
+  "name": "html_professional",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Lesyona/geek-html-course.git",
+  "author": "Olesya Mirzakhmedova <olesya.mirzakhmedova@convergent.digital>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.6"
+  },
+  "dependencies": {
+    "global.css": "^1.1.0"
+  }
+}
