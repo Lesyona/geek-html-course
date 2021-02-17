@@ -3,6 +3,8 @@ const closebtn = document.querySelector(".menu-close");
 const overlay = document.querySelector(".menu-overlay");
 const menu = document.querySelector(".menu-overlay .top-menu--wrap");
 
+const swiperContainer = document.querySelector(".swiper-container");
+
 
 let isOpen = false;
 burger.addEventListener("click", (event) => {
@@ -31,11 +33,13 @@ overlay.addEventListener("click", () => {
     document.body.style.overflow = null;
 });
 
-const swiper = new Swiper('.swiper-container', {
-    loop: true,
+if (swiperContainer) {
+    const swiper = new Swiper('.swiper-container', {
+        loop: true,
 
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-});
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+}
