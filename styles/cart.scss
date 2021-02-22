@@ -1,6 +1,6 @@
 .cart-heading {
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 
     h1 {
         margin-bottom: 0;
@@ -17,10 +17,6 @@
     flex-direction: column;
     padding-top: 39px;
     padding-bottom: 96px;
-
-    @media (min-width: 768px) {
-
-    }
 
     @media (min-width: 1024px) {
         flex-direction: row;
@@ -155,6 +151,14 @@
     font-family: Lato, Arial, sans-serif;
     font-size: 12px;
     text-align: center;
+    cursor: pointer;
+    transition: background-color ease-in 0.2s, color ease-in 0.2s, border-color ease-in 0.2s;
+
+    &:hover {
+        background-color: var(--pink-color);
+        border-color: var(--pink-color);
+        color: #fff;
+    }
 
     @media (min-width: 768px) {
         font-size: 14px;
@@ -253,7 +257,13 @@
         padding: 15px 10px;
         width: 100%;
         max-width: 270px;
-        border: 0;
+        border: 1px solid var(--pink-color);
+        transition: background-color ease-in 0.2s;
+
+        &:hover {
+            background-color: var(--white-color);
+            color: var(--pink-color);
+        }
     }
 
     @media (min-width: 768px) {
