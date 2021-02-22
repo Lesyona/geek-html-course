@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Registration</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
@@ -90,100 +90,83 @@
 
     <section class="heading-section">
         <div class="heading-container cart-heading container">
-            <h1>SHOPPING CART</h1>
-        </div>
-    </section>
-
-    <section class="cart-wrap container">
-        <div class="cart-products">
-            <div class="cart-products__item">
-                <button class="delete-product">
-                    <i class="fas fa-times"></i>
-                </button>
-
-                <div class="product-image"
-                    style="background: url(images/featured_items_1.jpg) 50% 50% / cover no-repeat;"></div>
-
-                <div class="product-info">
-                    <div class="product-title">MANGO PEOPLE T-SHIRT</div>
-
-                    <div class="product-info__line">
-                        Price: <span class="product-price">$300</span>
-                    </div>
-                    <div class="product-info__line">
-                        Color: Red
-                    </div>
-                    <div class="product-info__line">
-                        Size: XL
-                    </div>
-                    <div class="product-info__line">
-                        Quantity: <input class="product-ammount" type="text" value="2">
-                    </div>
-                </div>
-            </div>
-
-            <div class="cart-products__item">
-                <button class="delete-product">
-                    <i class="fas fa-times"></i>
-                </button>
-
-                <div class="product-image"
-                    style="background: url(images/featured_items_2.jpg) 50% 50% / cover no-repeat;"></div>
-
-                <div class="product-info">
-                    <div class="product-title">MANGO PEOPLE T-SHIRT</div>
-
-                    <div class="product-info__line">
-                        Price: <span class="product-price">$300</span>
-                    </div>
-                    <div class="product-info__line">
-                        Color: Red
-                    </div>
-                    <div class="product-info__line">
-                        Size: XL
-                    </div>
-                    <div class="product-info__line">
-                        Quantity: <input class="product-ammount" type="text" value="2">
-                    </div>
-                </div>
-            </div>
-
-            <div class="cart-products-buttons">
-                <button class="cart-button">Clear shopping cart</button>
-                <a href="catalog.html" class="cart-button">Continue shopping</a>
-            </div>
-        </div>
-
-        <div class="cart-forms">
-            <div class="form-address">
-                <div class="cart-form__title">SHIPPING ADRESS</div>
-
-                <form action="/">
-                    <div class="form-input-wrap">
-                        <input type="text" class="input-text" placeholder="Bangladesh">
-                    </div>
-                    <div class="form-input-wrap">
-                        <input type="text" class="input-text" placeholder="State">
-                    </div>
-                    <div class="form-input-wrap">
-                        <input type="text" class="input-text" placeholder="Postcode / Zip">
-                    </div>
-
-                    <button type="submit" class="cart-button">GET A QUOTE</button>
-                </form>
-            </div>
-
-            <div class="form-checkout">
-                <div class="cart-total">
-                    SUB TOTAL <span>$900</span>
-                    <div class="grand-total">GRAND TOTAL <span>$900</span></div>
-                </div>
-                <button type="submit" class="cart-button">PROCEED TO CHECKOUT</button>
-            </div>
+            <h1>REGISTRATION</h1>
         </div>
     </section>
 
 
+    <section class="registration-section container">
+        <div class="reg-form">
+            <form action="/">
+                <div class="form-block-title">Your Name</div>
+
+                <div class="form-input-wrap">
+                    <input type="text" class="input-text" placeholder="First Name">
+                </div>
+                <div class="form-input-wrap">
+                    <input type="text" class="input-text" placeholder="Last Name">
+                </div>
+
+                <div class="form-input-wrap radio-inputs-row">
+                    <div class="radio-wrap">
+                        <input type="radio" id="male" name="sex">
+                        <label for="male">Male</label>
+                    </div>
+
+                    <div class="radio-wrap">
+                        <input type="radio" id="female" name="sex">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="form-block-title">Login details</div>
+                <div class="form-input-wrap">
+                    <input type="email" class="input-text" placeholder="Email">
+                </div>
+                <div class="form-input-wrap">
+                    <input type="password" class="input-text" placeholder="Password">
+                </div>
+
+                <div class="pswd-note">
+                    Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase
+                    letters
+                </div>
+
+                <button type="submit" class="cart-button">
+                    JOIN NOW
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="10">
+                        <use xlink:href="images/social-sprite.svg#reg-arrow"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="reg-info">
+            <div class="reg-info__title">LOYALTY HAS ITS PERKS</div>
+
+            <p>
+                Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as
+                soon as you join:
+            </p>
+
+            <ul class="loyalty-perks">
+                <li>
+                    15% off welcome offer
+                </li>
+                <li>
+                    Free shipping, returns and exchanges on all orders
+                </li>
+                <li>
+                    $10 off a purchase on your birthday
+                </li>
+                <li>
+                    Early access to products
+                </li>
+                <li>
+                    Exclusive offers & rewards
+                </li>
+            </ul>
+        </div>
+    </section>
 
     <section class="section-subscribe">
         <div class="subscribe-container container">
